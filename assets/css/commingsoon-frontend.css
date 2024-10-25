@@ -1,0 +1,51 @@
+
+#commingsoon-main{
+    background:#000; 
+    height:100vh; 
+    position:relative; 
+    text-align:center
+}
+
+#commingsoon-main .container{
+    position:absolute; 
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%, -50%)
+}
+
+#commingsoon-main .container h1{
+    font-size:3.5rem; 
+    color:#fff
+}
+
+#commingsoon-main .container p{
+    font-size:1.5rem; 
+    color:#fcacfc; 
+    line-height: 1.5; 
+    margin-bottom:3rem
+}
+
+#commingsoon-main .container .ph-btn{
+    border:3px solid #fff; 
+    padding:0.6rem 2rem; 
+    border-radius: 20px 20px; 
+    color:#fff; 
+    font-weight: bold
+}
+
+#commingsoon-main .container .ph-btn:hover{
+    background-color: #fcacfc;
+    color: #000;
+    transition-duration: 0.3s;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    #commingsoon-main .container h1{
+        font-size:2.5rem; 
+    }
+
+    #commingsoon-main .container p{
+        font-size:1.2rem; 
+    }
+} 
